@@ -1,0 +1,14 @@
+<html>
+    <head>
+        <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <script type="text/javascript" src="{{url_for('static', filename='post.js')}}"></script>
+    </head>
+    <body>
+        <label>insira a letra que deseja predizer: </label>
+        <textarea onchange="predictSentence()" id='to-predict' type='text-area' min-height="400px" min-width="200px"></textarea>
+        
+        <div>
+            <p id="pred"></p>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,14 @@
+<form action="{{ url_for('pred') }}" method="POST">
+<label>escreva a letra: </label>
+<textarea name="sentence"></textarea>
+
+
+<input type="submit">
+
+
+</form>
+
+<p>predicted: {{response['predicted']}}</p>
+{% for proba in response['proba'] %}
+<p>{{proba}}</p>
+{% endfor %}

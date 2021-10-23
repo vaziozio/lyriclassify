@@ -1,0 +1,25 @@
+span {
+  text-transform: capitalize;
+}
+
+.App-main {
+  background-color: #282c34;
+  min-height: 100vh;
+  color: black;
+}
+
+#music-lyrics {
+  min-width: 100%;
+  min-height: 200px;
+}
+
+.yelo {
+  color: gold;
+}
+
+.predicted-key {
+  
+  color: gold;
+  font-size: 2.2rem;
+  font-weight: 500;
+}
